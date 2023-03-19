@@ -72,3 +72,28 @@ cd `
 EOA
 q
 exit
+cd ~
+ls -al
+exit
+cd ~
+git push -u origin master
+exit
+cd ~
+ssh -T git@github.com:Abdell001/microservices.git
+ssh -T git@github.com
+git remote set-url origin git@github.com:Abdell001/microservices.git
+git add --all
+git commit -am "microservices"
+git push -u origin master
+git checkout -b master
+git push origin master
+git checkout -b master
+cd .ssh
+ls -al
+cat id_rsa.pub
+ssh -T git@github.com
+git remote set-url origin git@github.com:Abdell001/microservices.git
+git add -all
+git add --all
+git commit -am "microservices"
+git push -u origin master
